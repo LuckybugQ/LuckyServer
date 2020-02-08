@@ -1,4 +1,10 @@
-/logs
-/target
-/.idea
-SimpleTomcat.iml
+
+# Maven
+target/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
