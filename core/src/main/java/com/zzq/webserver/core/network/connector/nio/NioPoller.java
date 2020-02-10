@@ -15,8 +15,8 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
- * @author sinjinsong
- * @date 2018/3/6
+ * @author ZZQ
+ * @date 2020/2/1
  */
 @Slf4j
 public class NioPoller implements Runnable {
@@ -68,7 +68,7 @@ public class NioPoller implements Runnable {
     
     @Override
     public void run() {
-        log.info("{} 开始监听", Thread.currentThread().getName());
+        log.info("{} 开始监听 (NioPoller)", Thread.currentThread().getName());
         while (nioEndpoint.isRunning()) {
             try {
                 events();

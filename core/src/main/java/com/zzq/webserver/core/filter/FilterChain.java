@@ -4,8 +4,8 @@ import com.zzq.webserver.core.request.Request;
 import com.zzq.webserver.core.response.Response;
 
 /**
- * @author sinjinsong
- * @date 2018/5/2
+ * @author ZZQ
+ * @date 2020/2/1
  * 拦截器链
  */
 public interface FilterChain {

@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Created by SinjinSong on 2017/7/20.
+ * Created by ZZQ on 2020/2/1.
  */
 @Slf4j
 public class NioEndpoint extends Endpoint {

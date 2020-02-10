@@ -7,8 +7,8 @@ import java.io.IOException;
 import java.nio.channels.SocketChannel;
 
 /**
- * @author sinjinsong
- * @date 2018/3/6
+ * @author ZZQ
+ * @date 2020/2/1
  * 
  * Nio 请求接收器
  */
@@ -22,7 +22,7 @@ public class NioAcceptor implements Runnable {
     
     @Override
     public void run() {
-        log.info("{} 开始监听",Thread.currentThread().getName());
+        log.info("{} 开始监听 (Acceptor)",Thread.currentThread().getName());
         while (nioEndpoint.isRunning()) {
             SocketChannel client;
             try {
