@@ -1,4 +1,4 @@
-package com.sinjinsong.webserver.sample.domain;
+package com.zzq.webserver.sample.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

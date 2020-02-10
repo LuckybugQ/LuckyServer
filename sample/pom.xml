@@ -82,7 +82,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.sinjinsong.webserver.sample.Main</mainClass>
+                            <mainClass>com.zzq.webserver.sample.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

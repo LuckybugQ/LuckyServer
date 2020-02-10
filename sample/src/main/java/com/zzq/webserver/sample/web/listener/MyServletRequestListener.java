@@ -1,7 +1,7 @@
-package com.sinjinsong.webserver.sample.web.listener;
+package com.zzq.webserver.sample.web.listener;
 
-import com.sinjinsong.webserver.core.listener.ServletRequestListener;
-import com.sinjinsong.webserver.core.listener.event.ServletRequestEvent;
+import com.zzq.webserver.core.listener.ServletRequestListener;
+import com.zzq.webserver.core.listener.event.ServletRequestEvent;
 import lombok.extern.slf4j.Slf4j;
 
 /**

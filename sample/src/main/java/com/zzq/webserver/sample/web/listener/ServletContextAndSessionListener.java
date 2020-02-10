@@ -1,9 +1,9 @@
-package com.sinjinsong.webserver.sample.web.listener;
+package com.zzq.webserver.sample.web.listener;
 
-import com.sinjinsong.webserver.core.listener.HttpSessionListener;
-import com.sinjinsong.webserver.core.listener.ServletContextListener;
-import com.sinjinsong.webserver.core.listener.event.HttpSessionEvent;
-import com.sinjinsong.webserver.core.listener.event.ServletContextEvent;
+import com.zzq.webserver.core.listener.HttpSessionListener;
+import com.zzq.webserver.core.listener.ServletContextListener;
+import com.zzq.webserver.core.listener.event.HttpSessionEvent;
+import com.zzq.webserver.core.listener.event.ServletContextEvent;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.atomic.AtomicInteger;

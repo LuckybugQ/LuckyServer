@@ -6,8 +6,8 @@ import com.zzq.webserver.core.util.PropertyUtil;
 import java.util.Scanner;
 
 /**
- * @author sinjinsong
- * @date 2018/3/6
+ * @author ZZQ
+ * @date 2020/2/1
  */
 public class BootStrap {
 
@@ -22,7 +22,7 @@ public class BootStrap {
         }
         String connector = PropertyUtil.getProperty("server.connector");
         if(connector == null || (!connector.equalsIgnoreCase("bio") && !connector.equalsIgnoreCase("nio") && !connector.equalsIgnoreCase("aio"))) {
-            throw new IllegalArgumentException("server.network 不存在或不符合规范");
+            throw new IllegalArgumentException("server.connector 不存在或不符合规范");
         }
         Endpoint server = Endpoint.getInstance(connector);
         server.start(Integer.parseInt(port));

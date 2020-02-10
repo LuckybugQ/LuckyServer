@@ -1,6 +1,6 @@
-package com.sinjinsong.webserver.sample.service;
+package com.zzq.webserver.sample.service;
 
-import com.sinjinsong.webserver.sample.domain.User;
+import com.zzq.webserver.sample.domain.User;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Map;

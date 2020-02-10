@@ -9,8 +9,8 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author sinjinsong
- * @date 2018/5/3
+ * @author ZZQ
+ * @date 2020/2/1
  * 
  * 过期session的清除器
  */

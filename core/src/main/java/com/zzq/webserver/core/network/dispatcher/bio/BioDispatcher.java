@@ -15,8 +15,8 @@ import java.io.IOException;
 import java.net.Socket;
 
 /**
- * @author sinjinsong
- * @date 2018/5/4
+ * @author ZZQ
+ * @date 2020/2/1
  */
 @Slf4j
 public class BioDispatcher extends AbstractDispatcher {

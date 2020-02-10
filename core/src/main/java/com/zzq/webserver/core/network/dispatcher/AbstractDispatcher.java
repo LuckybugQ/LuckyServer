@@ -12,8 +12,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author sinjinsong
- * @date 2018/5/4
+ * @author ZZQ
+ * @date 2020/2/1
  * 
  * 所有Dispatcher（请求分发器）的父类
  */
