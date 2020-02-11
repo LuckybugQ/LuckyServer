@@ -14,8 +14,8 @@ import java.nio.ByteBuffer;
 import java.nio.channels.CompletionHandler;
 
 /**
- * @author sinjinsong
- * @date 2018/5/4
+ * @author ZZQ
+ * @date 2020/2/1
  */
 @Slf4j
 public class AioDispatcher extends AbstractDispatcher {

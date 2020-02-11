@@ -9,8 +9,8 @@ import java.io.IOException;
 import java.nio.channels.AsynchronousSocketChannel;
 
 /**
- * @author sinjinsong
- * @date 2018/3/7
+ * @author ZZQQ
+ * @date 2020/2/1
  */
 @Slf4j
 @Data

@@ -8,10 +8,11 @@ import java.nio.channels.AsynchronousSocketChannel;
 import java.nio.channels.CompletionHandler;
 
 /**
- * @author sinjinsong
- * @date 2018/5/4
+ * @author ZZQ
+ * @date 2020/2/1
  */
 @Slf4j
+//CompletionHandler:操作系统读写操作完成后的回调函数
 public class AioAcceptor implements CompletionHandler<AsynchronousSocketChannel, Void> {
     private AioEndpoint aioEndpoint;
 

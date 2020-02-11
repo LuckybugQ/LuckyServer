@@ -3,8 +3,8 @@ package com.zzq.webserver.core.network.wrapper;
 import java.io.IOException;
 
 /**
- * @author sinjinsong
- * @date 2018/5/4
+ * @author ZZQ
+ * @date 2020/2/1
  */
 public interface SocketWrapper {
     void close() throws IOException;
