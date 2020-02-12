@@ -2,7 +2,7 @@
 <img width="200" src="img/logo.jpg">
 </p>
  
-<p align="center"><span style="font-size:50px">Lucky服务器 - 轻量级Web服务器</span>
+<p align="center"><span style="font-size:50px">Lucky服务器 - 轻量级Web应用服务器</span>
 </p>
 
 - 基于 `Java网络编程` 开发的一款 `Web服务器`
