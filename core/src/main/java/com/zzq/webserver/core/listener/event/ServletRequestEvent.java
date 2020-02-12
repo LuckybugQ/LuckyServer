@@ -61,7 +61,7 @@ import com.zzq.webserver.core.request.Request;
 import com.zzq.webserver.core.context.ServletContext;
 
 /**
- * @author sinjinsong
+ * @author ZZQ
  * request相关的事件
  */
 public class ServletRequestEvent extends java.util.EventObject { 

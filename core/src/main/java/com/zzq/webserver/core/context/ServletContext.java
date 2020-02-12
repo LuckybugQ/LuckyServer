@@ -371,6 +371,7 @@ public class ServletContext {
     }
 
     public void afterRequestCreated(Request request) {
+
         ServletRequestEvent servletRequestEvent = new ServletRequestEvent(this, request);
         for (ServletRequestListener listener : servletRequestListeners) {
             listener.requestInitialized(servletRequestEvent);

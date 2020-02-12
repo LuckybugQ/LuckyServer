@@ -63,7 +63,7 @@ import com.zzq.webserver.core.listener.event.HttpSessionEvent;
 import java.util.EventListener;
 
 /**
- * @author sinjinsong
+ * @author ZZQ
  */
 public interface HttpSessionListener extends EventListener {
     /**

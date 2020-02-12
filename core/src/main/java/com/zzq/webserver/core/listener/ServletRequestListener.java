@@ -63,7 +63,7 @@ import com.zzq.webserver.core.listener.event.ServletRequestEvent;
 import java.util.EventListener;
 
 /**
- * @author sinjinsong
+ * @author ZZQ
  * 请求层面上的监听器
  */
 public interface ServletRequestListener extends EventListener {

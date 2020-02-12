@@ -1,6 +1,6 @@
 /**
- * @author sinjinsong
- * @date 2018/5/5
+ * @author ZZQ
+ * @date 2020/2/1
  * 
  * 网络模块，支持BIO，NIO，AIO，下面用${IO}来代指不同IO模型；
  * 入口是${IO}Endpoint,它对应着唯一的dispatcher实例，以及不同IO模型所需的${IO}Acceptor；

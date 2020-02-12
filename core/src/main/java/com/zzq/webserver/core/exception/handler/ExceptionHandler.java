@@ -2,10 +2,10 @@ package com.zzq.webserver.core.exception.handler;
 
 import com.zzq.webserver.core.exception.RequestInvalidException;
 import com.zzq.webserver.core.exception.base.ServletException;
+import com.zzq.webserver.core.network.wrapper.SocketWrapper;
 import com.zzq.webserver.core.response.Header;
 import com.zzq.webserver.core.response.Response;
 import com.zzq.webserver.core.util.IOUtil;
-import com.zzq.webserver.core.network.wrapper.SocketWrapper;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
@@ -23,7 +23,7 @@ public class ExceptionHandler {
     public void handle(ServletException e, Response response, SocketWrapper socketWrapper) {
         try {
             if (e instanceof RequestInvalidException) {
-                log.info("请求无法读取，丢弃");
+                log.info("请求无法读取，丢弃"+socketWrapper);
                 socketWrapper.close();
             } else {
                 log.info("抛出异常:{}", e.getClass().getName());

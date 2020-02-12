@@ -4,8 +4,8 @@ import com.zzq.webserver.core.enumeration.HttpStatus;
 import com.zzq.webserver.core.exception.base.ServletException;
 
 /**
- * @author sinjinsong
- * @date 2018/5/3
+ * @author ZZQ
+ * @date 2020/2/1
  * 未找到对应的Listener（web.xml配置错误）
  */
 public class ListenerNotFoundException extends ServletException {

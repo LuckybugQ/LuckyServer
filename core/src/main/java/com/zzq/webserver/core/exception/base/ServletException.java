@@ -4,7 +4,7 @@ import com.zzq.webserver.core.enumeration.HttpStatus;
 import lombok.Getter;
 
 /**
- * Created by SinjinSong on 2017/7/20.
+ * Created by ZZQ on 2020/2/1.
  * 根异常
  */
 @Getter

@@ -5,8 +5,8 @@ import com.zzq.webserver.core.listener.event.ServletContextEvent;
 import java.util.EventListener;
 
 /**
- * @author sinjinsong
- * @date 2018/5/3
+ * @author ZZQ
+ * @date 2020/2/1
  * 应用层面上的监听器
  */
 public interface ServletContextListener extends EventListener {

@@ -7,7 +7,7 @@ import com.zzq.webserver.core.response.Response;
 import java.io.IOException;
 
 /**
- * Created by SinjinSong on 2017/7/21.
+ * Created by ZZQ on 2020/2/1.
  */
 public interface RequestDispatcher {
     

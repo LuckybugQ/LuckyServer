@@ -1,7 +1,7 @@
 package com.zzq.webserver.core.constant;
 
 /**
- * Created by SinjinSong on 2017/7/20.
+ * Created by ZZQ on 2020/2/1.
  */
 public class CharConstant {
     public static final String BLANK = " ";

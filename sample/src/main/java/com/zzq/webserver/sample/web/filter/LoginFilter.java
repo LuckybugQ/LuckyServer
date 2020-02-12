@@ -8,8 +8,8 @@ import com.zzq.webserver.core.response.Response;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author sinjinsong
- * @date 2018/5/2
+ * @author ZZQ
+ * @date 2020/2/1
  */
 @Slf4j
 public class LoginFilter implements Filter {

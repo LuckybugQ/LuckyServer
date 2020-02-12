@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.io.IOException;
 
 /**
- * Created by SinjinSong on 2017/7/21.
+ * Created by ZZQ on 2020/2/1.
  */
 @Slf4j
 public class LogoutServlet extends HttpServlet {

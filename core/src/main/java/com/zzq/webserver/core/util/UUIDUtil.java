@@ -3,7 +3,7 @@ package com.zzq.webserver.core.util;
 import java.util.UUID;
 
 /**
- * Created by SinjinSong on 2017/7/21.
+ * Created by ZZQ on 2020/2/1.
  */
 public class UUIDUtil {
     public static String uuid(){

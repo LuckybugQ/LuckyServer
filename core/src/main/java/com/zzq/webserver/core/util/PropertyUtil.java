@@ -8,8 +8,8 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * @author sinjinsong
- * @date 2018/3/10
+ * @author ZZQ
+ * @date 2020/2/1
  */
 @Slf4j
 public class PropertyUtil {

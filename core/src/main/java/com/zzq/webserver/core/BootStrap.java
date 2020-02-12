@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @date 2020/2/1
  */
 public class BootStrap {
-
+    public static String CONNECTOR;
     /**
      * 服务器启动入口
      * 用户程序与服务器的接口
@@ -24,6 +24,7 @@ public class BootStrap {
         if(connector == null || (!connector.equalsIgnoreCase("bio") && !connector.equalsIgnoreCase("nio") && !connector.equalsIgnoreCase("aio"))) {
             throw new IllegalArgumentException("server.connector 不存在或不符合规范");
         }
+        CONNECTOR = connector;
         Endpoint server = Endpoint.getInstance(connector);
         server.start(Integer.parseInt(port));
         Scanner scanner = new Scanner(System.in);

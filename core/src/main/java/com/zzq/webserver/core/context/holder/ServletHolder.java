@@ -4,8 +4,8 @@ import com.zzq.webserver.core.servlet.Servlet;
 import lombok.Data;
 
 /**
- * @author sinjinsong
- * @date 2018/5/2
+ * @author ZZQ
+ * @date 2020/2/1
  */
 @Data
 public class ServletHolder {

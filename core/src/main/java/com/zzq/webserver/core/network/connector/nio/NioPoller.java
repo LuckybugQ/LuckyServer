@@ -10,7 +10,6 @@ import java.io.IOException;
 import java.nio.channels.*;
 import java.util.Iterator;
 import java.util.Map;
-import java.util.Queue;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
@@ -22,10 +21,10 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 public class NioPoller implements Runnable {
     private NioEndpoint nioEndpoint;
     private Selector selector;
-    private Queue<PollerEvent> events;
+    private ConcurrentLinkedQueue<PollerEvent> events;
     private String pollerName;
     private Map<SocketChannel, NioSocketWrapper> sockets;
-    
+
     public NioPoller(NioEndpoint nioEndpoint, String pollerName) throws IOException {
         this.sockets = new ConcurrentHashMap<>();
         this.nioEndpoint = nioEndpoint;
@@ -77,7 +76,8 @@ public class NioPoller implements Runnable {
                 }
                 log.info("select()返回,开始获取当前选择器中所有注册的监听事件");
                 //获取当前选择器中所有注册的监听事件
-                for (Iterator<SelectionKey> it = selector.selectedKeys().iterator(); it.hasNext(); ) {
+                Iterator<SelectionKey> it = selector.selectedKeys().iterator();
+                while (it!=null && it.hasNext()) {
                     SelectionKey key = it.next();
                     //如果"接收"事件已就绪
                     if (key.isReadable()) {
@@ -163,7 +163,7 @@ public class NioPoller implements Runnable {
                 if (wrapper.getSocketChannel().isOpen()) {
                     wrapper.getSocketChannel().register(wrapper.getNioPoller().getSelector(), SelectionKey.OP_READ, wrapper);
                 } else {
-                    log.error("socket已经被关闭，无法注册到Poller", wrapper.getSocketChannel());
+                    log.error("socket已经被关闭，无法注册到Poller"+wrapper.getSocketChannel(), wrapper.getSocketChannel());
                 }
             } catch (ClosedChannelException e) {
                 e.printStackTrace();

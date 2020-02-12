@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Created by SinjinSong on 2017/7/20.
+ * Created by ZZQ on 2020/2/1.
  */
 @Slf4j
 public class IOUtil {

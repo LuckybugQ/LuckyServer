@@ -5,8 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author sinjinsong
- * @date 2018/5/3
+ * @author ZZQ
+ * @date 2020/2/1
  */
 @Data
 @NoArgsConstructor

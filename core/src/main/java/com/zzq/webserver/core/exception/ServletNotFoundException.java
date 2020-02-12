@@ -4,7 +4,7 @@ import com.zzq.webserver.core.enumeration.HttpStatus;
 import com.zzq.webserver.core.exception.base.ServletException;
 
 /**
- * Created by SinjinSong on 2017/7/21.
+ * Created by ZZQ on 2020/2/1.
  * 未找到对应的Servlet（web.xml配置错误）
  */
 public class ServletNotFoundException extends ServletException {

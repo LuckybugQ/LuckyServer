@@ -4,8 +4,8 @@ import com.zzq.webserver.core.filter.Filter;
 import lombok.Data;
 
 /**
- * @author sinjinsong
- * @date 2018/5/3
+ * @author ZZQ
+ * @date 2020/2/1
  */
 @Data
 public class FilterHolder {
