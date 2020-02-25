@@ -13,6 +13,8 @@ import java.io.InputStream;
 @Slf4j
 public class IOUtil {
 
+
+
     public static byte[] getBytesFromFile(String fileName) throws IOException {
         InputStream in = IOUtil.class.getResourceAsStream(fileName);
         if (in == null) {

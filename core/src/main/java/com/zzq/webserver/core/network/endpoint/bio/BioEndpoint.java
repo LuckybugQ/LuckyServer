@@ -20,7 +20,7 @@ public class BioEndpoint extends Endpoint {
     private BioAcceptor acceptor;
     private BioDispatcher dispatcher;
     private volatile boolean isRunning = true;
-    
+
     @Override
     public void start(int port) {
         try {
